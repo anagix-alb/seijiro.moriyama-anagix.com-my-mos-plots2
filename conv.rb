@@ -15,7 +15,7 @@ vds_array = data[0.0][0.0].keys.sort
 #vgs_array = ['0', '0.1', '0.2']
 vgs_array = data[0.0].keys.sort
 
-@alta.meas_data.text<< "Vds, #{vgs_array.join(',')}"
+meas_data "Vds, #{vgs_array.join(',')}"
 vds_array.each{|vds|
-  @alta.meas_data.text<< "#{vds}, #{vgs_array.map{|vgs| data[0.0][vgs][vds]}.join(',')}"
+  meas_data "#{vds}, #{vgs_array.map{|vgs| data[0.0][vgs][vds]}.join(',')}"
 }

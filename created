@@ -1,0 +1,13 @@
+---
+comment: Created by ALB v2.0.1
+files:
+- pax_global_header
+- ".ipynb_checkpoints/"
+- ".ipynb_checkpoints/mos_plots-checkpoint.ipynb"
+- Ids-Vds.html
+- Ids-Vgs.html
+- README.md
+- chip1_vth-p_ari_2016.9.26.13.51.csv
+- conv.rb
+- mos_plots.ipynb
+- out.csv
